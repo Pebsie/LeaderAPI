@@ -1,7 +1,7 @@
 <?php
-    require "connect.php";
-    require "functions.php";
     $request_uri = explode('?', $_SERVER['REQUEST_URI'], 2);
+    require "connect.php";
+    
 
     $apiKey = "";
     $output = false;

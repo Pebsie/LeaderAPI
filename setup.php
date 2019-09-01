@@ -1,8 +1,7 @@
 <?php
     if ($_POST['dbname']) {
         $authFile = fopen("auth.php", "w");
-        $authWrite = '
-        <?php
+        $authWrite = '<?php
             $mysql_username = "'.$_POST["username"].'";
             $mysql_password = "'.$_POST["password"].'";
             $mysql_server = "'.$_POST["server"].'";
