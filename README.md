@@ -47,7 +47,7 @@ upper | number | the position to count down from. E.G to get users between posit
 
 ### POST 'update'
 Adds an entry to the database.
-Takes 3 parameters:
+Takes 4 parameters:
 
 Title | Type | Description
 --- | --- | ---
