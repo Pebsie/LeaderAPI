@@ -2,9 +2,16 @@
 An API built in PHP for tracking online leaderboards. 
 
 ## Installing
-Clone this folder into a directory on your web server and rename api.php to index.php. Then create a MySQL database and run setup.php.
+Clone this folder into a directory on your web server, create a MySQL database and run setup.php. Finally, alter your `.htaccess` file to this:
+```
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ index.php [QSA,L]
+```
 
-Alternatively you can use the public API at http://leader.peb.si
+Alternatively you can use the public API at http://leader.peb.si. Please don't heck up my database or I'll need to close this.
 
 ## Usage
 
