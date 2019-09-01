@@ -85,3 +85,9 @@ uniqueId | text | A unique reference for this entry allowing retrieval
   position: 1
 }
 ```
+## Expansion
+Some things that would be cool to implement:
+* user metadata
+* score metadata
+* leaderboard metadata
+* defaults
